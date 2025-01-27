@@ -1,16 +1,22 @@
-# Iris Flower Classification using Streamlit
+# Iris Classification Streamlit App
 
-This Streamlit app uses the famous Iris dataset to classify iris flowers into three species based on their attributes: sepal length, sepal width, petal length, and petal width. The app uses a Random Forest classifier trained on the dataset and allows users to input flower measurements via sliders to predict the species.
+This is a simple Streamlit app for predicting the species of an iris flower based on its physical features (sepal length, sepal width, petal length, petal width). The app uses a pre-trained RandomForestClassifier to make predictions.
 
-## Features:
-- Input sepal and petal measurements using sliders.
-- Predict the flower species using a trained Random Forest model.
-- Displays an image of the predicted flower species.
+## Live Demo
 
-## Installation
+You can view the live version of the app here:
 
-To run the app locally, you need to have Python installed. You can install the required dependencies by following these steps:
+[Visit Iris Predictor App](https://iris-predictor-webapp-3rp3rwviyknnxmm4mt2dya.streamlit.app/)
 
-### Clone the repository:
-```bash
-git clone https://github.com/<your-github-username>/iris-classification-streamlit.git
+## Features
+
+- Users can interact with sliders to provide the measurements of a flower's sepal and petal.
+- The app predicts the species of the flower (Setosa, Versicolor, or Virginica) based on the input data.
+
+## How to Run Locally
+
+To run this app on your local machine, follow these steps:
+
+1. Clone this repository:
+   ```bash
+   git clone <repository-url>
